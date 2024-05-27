@@ -16,6 +16,7 @@ module.exports = {
       "secBg": "#f5f6f8",
       "sky": "#46afe0",
       "muted": "#c3cbd9",
+      "gray": "#444444",
       "header": "#37517e",
       "btnColor": "#47b2e4",
       "check": "#0c9957",
