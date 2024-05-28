@@ -6,9 +6,10 @@ module.exports = {
       "sm": "450px",
       "md": "740px",
       "lg": "1050px",
+      "xl": "1280px",
     },
     fontFamily: {
-      "nunito": "'Nunito', 'sans-serif'"
+      "nunito": "'Nunito', 'sans-serif'",
     },
     colors: {
       "hero": "#37517e",
@@ -21,7 +22,11 @@ module.exports = {
       "btnColor": "#47b2e4",
       "check": "#0c9957",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "cta-bg": "url('/img/cta-bg.jpg')",
+      },
+    },
   },
   plugins: [],
 }
