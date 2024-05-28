@@ -649,8 +649,9 @@ video {
   top: 0.5rem;
 }
 
-.row-span-3{
-  grid-row: span 3 / span 3;
+.mx-1{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-auto{
@@ -666,16 +667,6 @@ video {
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-1{
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .mb-10{
@@ -726,10 +717,6 @@ video {
   margin-top: 50px;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
 .inline-block{
   display: inline-block;
 }
@@ -778,26 +765,8 @@ video {
   cursor: pointer;
 }
 
-.columns-3{
-  -moz-columns: 3;
-       columns: 3;
-}
-
-.break-inside-avoid{
-  -moz-column-break-inside: avoid;
-       break-inside: avoid;
-}
-
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-3{
-  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col-reverse{
@@ -973,26 +942,6 @@ video {
 .py-\[100px\]{
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.px-12{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-\[\]{
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[100px\]{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.px-\[8\%\]{
-  padding-left: 8%;
-  padding-right: 8%;
 }
 
 .pb-3{
@@ -1227,11 +1176,6 @@ video {
     width: 70%;
   }
 
-  .md\:columns-3{
-    -moz-columns: 3;
-         columns: 3;
-  }
-
   .md\:columns-2{
     -moz-columns: 2;
          columns: 2;
@@ -1344,24 +1288,9 @@ video {
     padding-right: 3rem;
   }
 
-  .lg\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .lg\:px-\[100px\]{
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
   .lg\:px-\[8\%\]{
     padding-left: 8%;
     padding-right: 8%;
-  }
-
-  .lg\:px-\[5\]{
-    padding-left: 5;
-    padding-right: 5;
   }
 }
 
