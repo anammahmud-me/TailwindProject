@@ -7,6 +7,7 @@ module.exports = {
       "md": "740px",
       "lg": "1050px",
       "xl": "1280px",
+      "2xl": "1536px",
     },
     fontFamily: {
       "nunito": "'Nunito', 'sans-serif'",
@@ -21,6 +22,7 @@ module.exports = {
       "header": "#37517e",
       "btnColor": "#47b2e4",
       "check": "#0c9957",
+      "star": "#ffc107",
     },
     extend: {
       backgroundImage: {
