@@ -639,12 +639,20 @@ video {
   position: relative;
 }
 
+.right-0{
+  right: 0px;
+}
+
 .right-1{
   right: 0.25rem;
 }
 
 .right-2{
   right: 0.5rem;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .top-1{
@@ -759,14 +767,6 @@ video {
   height: 100%;
 }
 
-.h-\[\]{
-  height: ;
-}
-
-.h-\[250px\]{
-  height: 250px;
-}
-
 .w-12{
   width: 3rem;
 }
@@ -797,6 +797,22 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[full\]{
+  width: full;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[50\%\]{
+  width: 50%;
+}
+
+.w-\[70\%\]{
+  width: 70%;
 }
 
 .cursor-pointer{
@@ -859,6 +875,10 @@ video {
   border-width: 1px;
 }
 
+.border{
+  border-width: 1px;
+}
+
 .border-y-4{
   border-top-width: 4px;
   border-bottom-width: 4px;
@@ -881,6 +901,19 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-gray{
+  --tw-border-opacity: 1;
+  border-color: rgb(68 68 68 / var(--tw-border-opacity));
+}
+
+.border-\[\]{
+  border-color: ;
+}
+
+.border-\[px\]{
+  border-color: px;
 }
 
 .bg-btnColor{
@@ -962,10 +995,6 @@ video {
 
 .p-6{
   padding: 1.5rem;
-}
-
-.p-0{
-  padding: 0px;
 }
 
 .px-10{
@@ -1308,14 +1337,32 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.focus\:border-\[1px\]:focus{
+  border-width: 1px;
+}
+
 .focus\:border-sky:focus{
   --tw-border-opacity: 1;
   border-color: rgb(70 175 224 / var(--tw-border-opacity));
 }
 
+.focus\:outline-none:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 450px){
+  .sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .sm\:w-\[90\%\]{
     width: 90%;
+  }
+
+  .sm\:w-\[50\%\]{
+    width: 50%;
   }
 
   .sm\:text-5xl{
@@ -1355,6 +1402,14 @@ video {
     width: 70%;
   }
 
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:w-\[50\%\]{
+    width: 50%;
+  }
+
   .md\:columns-2{
     -moz-columns: 2;
          columns: 2;
@@ -1374,10 +1429,6 @@ video {
 
   .md\:justify-between{
     justify-content: space-between;
-  }
-
-  .md\:gap-5{
-    gap: 1.25rem;
   }
 
   .md\:gap-x-5{
@@ -1420,20 +1471,12 @@ video {
     margin-top: 0px;
   }
 
-  .lg\:mt-5{
-    margin-top: 1.25rem;
-  }
-
   .lg\:block{
     display: block;
   }
 
   .lg\:flex{
     display: flex;
-  }
-
-  .lg\:grid{
-    display: grid;
   }
 
   .lg\:w-1\/2{
