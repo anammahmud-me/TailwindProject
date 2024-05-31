@@ -651,6 +651,10 @@ video {
   bottom: 0.5rem;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .right-0{
   right: 0px;
 }
@@ -673,14 +677,6 @@ video {
 
 .top-2{
   top: 0.5rem;
-}
-
-.left-0{
-  left: 0px;
-}
-
-.bottom-5{
-  bottom: 1.25rem;
 }
 
 .z-10{
@@ -1010,6 +1006,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1065,39 +1066,24 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-\[100px\]{
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-0{
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-\[\]{
-  padding-top: ;
-  padding-bottom: ;
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-\[10\]{
   padding-top: 10;
   padding-bottom: 10;
+}
+
+.py-\[00px\]{
+  padding-top: 00px;
+  padding-bottom: 00px;
 }
 
 .py-\[70px\]{
@@ -1108,6 +1094,11 @@ video {
 .py-\[75px\]{
   padding-top: 75px;
   padding-bottom: 75px;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-\[5rem\]{
@@ -1125,10 +1116,6 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
 }
 
 .text-center{
@@ -1507,19 +1494,9 @@ video {
     padding-right: 2.5rem;
   }
 
-  .md\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   .md\:px-\[6\%\]{
     padding-left: 6%;
     padding-right: 6%;
-  }
-
-  .md\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:text-left{
