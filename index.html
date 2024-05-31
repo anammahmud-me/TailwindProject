@@ -18,13 +18,13 @@
             </div>
             <!-- navbar Menu -->
             <div class="nav_menu text-white hidden lg:block">
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Home</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">About</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Service</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Portfolio</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Team</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Pricing</a>
-                <a href="#" class="px-3 hover:text-sky transition-all delay-75">Contact</a>
+                <a href="#home" class="px-3 hover:text-sky transition-all delay-75">Home</a>
+                <a href="#about" class="px-3 hover:text-sky transition-all delay-75">About</a>
+                <a href="#service" class="px-3 hover:text-sky transition-all delay-75">Service</a>
+                <a href="#portfolio" class="px-3 hover:text-sky transition-all delay-75">Portfolio</a>
+                <a href="#team" class="px-3 hover:text-sky transition-all delay-75">Team</a>
+                <a href="#pricing" class="px-3 hover:text-sky transition-all delay-75">Pricing</a>
+                <a href="#contact" class="px-3 hover:text-sky transition-all delay-75">Contact</a>
             </div>
             <!-- navbar button -->
             <div class="nav_btn">
@@ -35,7 +35,7 @@
     <!-- Navbar end -->
 
     <!-- hero section start -->
-    <section class="hero_section bg-hero py-8 px-5 flex flex-col-reverse lg:flex-row lg:justify-center items-center lg:px-12">
+    <section id="home" class="hero_section bg-hero py-8 px-5 flex flex-col-reverse lg:flex-row lg:justify-center items-center lg:px-12">
         <!-- hero_text -->
         <div class="hero_text mt-6 lg:mt-0">
             <h2 class="text-white text-2xl font-bold sm:text-5xl">Better Solutions For Your Business</h2>
@@ -70,7 +70,7 @@
     <!-- client section end -->
 
     <!-- about section start -->
-    <section class="about px-3 py-10 bg-white md:px-10">
+    <section id="about" class="about px-3 py-10 bg-white md:px-10">
         <!-- heading -->
         <div class="about_heading mb-10">
             <h2 class="section_heading">ABOUT US</h2>
@@ -225,7 +225,7 @@
     <!-- skills section end -->
 
     <!-- service section start -->
-    <section class="service py-10 px-5 bg-secBg lg:px-10 ">
+    <section id="service" class="service py-10 px-5 bg-secBg lg:px-10 ">
         <!-- service_heading -->
         <div class="service_heading mb-5">
             <h2 class="section_heading">Service</h2>
@@ -276,7 +276,7 @@
     <!-- call_to_action section end -->
 
     <!-- portfolio section start -->
-    <section class="portfolio py-10 px-5 bg-white md:px-[6%]">
+    <section id="portfolio" class="portfolio py-10 px-5 bg-white md:px-[6%]">
         <div class="portfolio_heading mb-5">
             <h2 class="section_heading">Portfolio</h2>
             <p class="text-gray text-center text-lg mt-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -304,7 +304,7 @@
     <!-- portfolio section end -->
 
     <!-- team section start -->
-    <section class="team py-10 px-5 bg-secBg md:px-[6%]">
+    <section id="team" class="team py-10 px-5 bg-secBg md:px-[6%]">
         <!-- team_heading -->
         <div class="team_heading mb-5">
             <h2 class="section_heading">Team</h2>
@@ -385,7 +385,7 @@
     <!-- team section end -->
 
     <!-- pricing section start -->
-    <section class="pricing py-10 px-5 bg-white md:px-[6%]">
+    <section id="pricing" class="pricing py-10 px-5 bg-white md:px-[6%]">
         <!-- pricing_heading -->
         <div class="pricing_heading mb-5">
             <h2 class="section_heading">Pricing</h2>
@@ -561,7 +561,7 @@
     <!-- testimonial section end -->
 
     <!-- contact section start -->
-    <section class="contact py-10 px-5 bg-white md:px-[6%]">
+    <section id="contact" class="contact py-10 px-5 bg-white md:px-[6%]">
         <!-- contact_heading -->
         <div class="contact_heading mb-5">
             <h2 class="section_heading">Contact Us</h2>
@@ -715,8 +715,15 @@
     <!-- copyright area start -->
     <div class="copyright pt-10 pb-20 px-5 md:px-[6%] text-center border-t-[1px] border-muted">
         <p class="text-gray">&copy; Copyright <span class="font-bold">Arsha</span> All Rights Reserved</p>
-        <p class="text-gray text-sm">Designed by <a href="#" class="text-sky">BootstrapMade</a></p>
+        <p class="text-gray text-sm">Designed by <a href="#" class="text-sky">Anam Mahmud</a></p>
     </div>
     <!-- copyright area end -->
+
+    <!-- scroll_top -->
+    <div class="scroll_top w-14 h-14 rounded-full bg-sky flex justify-center items-center text-xl text-white fixed right-2 bottom-2">
+        <a href="#home">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
 </body>
 </html>
