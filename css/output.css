@@ -791,6 +791,22 @@ video {
   height: 100%;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-8{
+  height: 2rem;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
 .w-12{
   width: 3rem;
 }
@@ -825,6 +841,26 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-2{
+  width: 0.5rem;
+}
+
+.w-8{
+  width: 2rem;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-9{
+  width: 2.25rem;
+}
+
+.w-0{
+  width: 0px;
 }
 
 .cursor-pointer{
@@ -1056,11 +1092,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1069,36 +1100,6 @@ video {
 .py-\[100px\]{
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-\[10\]{
-  padding-top: 10;
-  padding-bottom: 10;
-}
-
-.py-\[00px\]{
-  padding-top: 00px;
-  padding-bottom: 00px;
-}
-
-.py-\[70px\]{
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.py-\[75px\]{
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-\[5rem\]{
@@ -1178,6 +1179,10 @@ video {
 
 .leading-8{
   line-height: 2rem;
+}
+
+.leading-9{
+  line-height: 2.25rem;
 }
 
 .text-check{
@@ -1601,24 +1606,9 @@ video {
     gap: 2rem;
   }
 
-  .lg\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   .lg\:px-\[6\%\]{
     padding-left: 6%;
     padding-right: 6%;
-  }
-
-  .lg\:px-\[10\]{
-    padding-left: 10;
-    padding-right: 10;
   }
 }
 
